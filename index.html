@@ -8,6 +8,7 @@
     <title>Crystals Collector Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
@@ -16,23 +17,27 @@
         <!-- directions for game -->
         <p id="directions-text">Click crystals below to try and match the target score. Each crystal will have a
             different value. Good Luck!!!</p>
+    </div>
+
+    <div>
 
         <!-- catagories -->
         <p id="wins-text"></p>
         <p id="losses-text"></p>
-        <!-- <p id="guessesleft-text"></p> -->
-        <p id="userchoice-text"></p>
+        <p id="result-text"></p>
+        <p id="computerGuess-text"></p>
+        <p id="usersScore-text"></p>
     </div>
 
     <section>
-        <img src="assets/images/crystal 1.jpeg" alt="crystal #1" height="150px" width="150px">
-        <img src="assets/images/crystal 2.jpg" alt="crystal #2" height="150px" width="150px">
-        <img src="assets/images/crystal 3.jpeg" alt="crystal #3" height="150px" width="150px">
-        <img src="assets/images/crystal 4.jpg" alt="crystal #4" height="150px" width="150px">
+        <img class = 'rocks1' src="assets/images/crystal 1.jpeg" alt="crystal #1" height="150px" width="150px">
+        <img class = 'rocks2' src="assets/images/crystal 2.jpg" alt="crystal #2" height="150px" width="150px">
+        <img class = 'rocks3' src="assets/images/crystal 3.jpeg" alt="crystal #3" height="150px" width="150px">
+        <img class = 'rocks4' src="assets/images/crystal 4.jpg" alt="crystal #4" height="150px" width="150px">
     </section>
 
-    <!-- <img src="assets/images/diagonal_striped_brick/diagonal_striped_brick.png"> -->
-    
+    <!-- <img src="assets/images/diagonal_striped_brick/diagonal_striped_brick.png">     -->
+
     <script src="assets/javascript/game.js"></script>
 
 </body>

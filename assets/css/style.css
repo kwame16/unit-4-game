@@ -1,4 +1,22 @@
+#directions-text {
+    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-right: 45px;
+    margin-left: 45px;
+    border: 30px, ridge, green,;
+    padding: 2%;
+}
+
+/* div1 {
+    border: 8px, solid, red;
+
+} */
+
+section {
+    border: 8px, solid, green;
+    margin: 10% 40% 0 10%;
+}
+
 body {
     background-image: url(../images/diagonal_striped_brick/diagonal_striped_brick.png);
-
 }
